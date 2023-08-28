@@ -1,0 +1,19 @@
+table {
+  color: white;
+  border-collapse: collapse;
+  margin: auto;
+  text-align: center;
+}
+
+th {
+  padding: 8px;
+}
+
+td {
+  padding: 8px;
+  border: 1px solid white;
+}
+
+tr.columns {
+  font-weight: 500;
+}

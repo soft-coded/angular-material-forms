@@ -14,6 +14,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LoginFormComponent } from './login-form/login-form.component';
 import { RegisterFormComponent } from './register-form/register-form.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
+import { UsersTableComponent } from './users-table/users-table.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
     LoginFormComponent,
     RegisterFormComponent,
     ToolbarComponent,
+    UsersTableComponent,
   ],
   imports: [
     BrowserModule,
