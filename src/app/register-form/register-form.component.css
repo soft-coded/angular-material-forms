@@ -1,0 +1,17 @@
+form {
+  background-color: rgb(41, 41, 41);
+  margin: auto;
+  width: max-content;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.form-group {
+  display: flex;
+  gap: 12px;
+}
+
+mat-form-field,
+button {
+  flex: 1;
+}
