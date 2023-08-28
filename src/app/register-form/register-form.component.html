@@ -1,4 +1,4 @@
-<form>
+<form (ngSubmit)="handleFormSubmit(form)" #form="ngForm">
   <header>
     <h1>REGISTER</h1>
     <hr />
@@ -6,23 +6,23 @@
   <div class="form-group">
     <mat-form-field>
       <mat-label>First name</mat-label>
-      <input matInput />
+      <input matInput name="firstName" ngModel />
     </mat-form-field>
     <mat-form-field>
       <mat-label>Last name</mat-label>
-      <input matInput />
+      <input matInput name="lastName" ngModel />
     </mat-form-field>
   </div>
   <div class="form-group">
     <mat-form-field>
       <mat-label>Email</mat-label>
-      <input matInput type="email" />
+      <input matInput type="email" name="email" ngModel />
     </mat-form-field>
   </div>
   <div class="form-group">
     <mat-form-field>
       <mat-label>Contact number</mat-label>
-      <input matInput />
+      <input matInput name="contactNumber" ngModel />
     </mat-form-field>
   </div>
   <div class="form-group">
