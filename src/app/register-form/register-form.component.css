@@ -6,6 +6,15 @@ form {
   border-radius: 8px;
 }
 
+header {
+  color: white;
+  text-align: center;
+}
+
+hr {
+  margin-bottom: 16px;
+}
+
 .form-group {
   display: flex;
   gap: 12px;
