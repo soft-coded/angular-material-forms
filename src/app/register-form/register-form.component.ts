@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { NgForm } from '@angular/forms';
 
-import { User, UsersService } from '../users.service';
+import { UsersService } from '../users.service';
 
 @Component({
   selector: 'app-register-form',
