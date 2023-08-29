@@ -19,5 +19,7 @@ export class RegisterFormComponent {
       email: form.value.email,
       contactNumber: +form.value.contactNumber,
     });
+
+    this.router.navigate(['/users']);
   }
 }
