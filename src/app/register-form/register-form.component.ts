@@ -10,7 +10,7 @@ import { UsersService } from '../users.service';
   styleUrls: ['./register-form.component.css'],
 })
 export class RegisterFormComponent {
-  constructor(private usersService: UsersService) {}
+  constructor(private usersService: UsersService, private router: Router) {}
 
   handleFormSubmit(form: NgForm) {
     this.usersService.addUser({
